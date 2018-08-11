@@ -1,0 +1,31 @@
+# 内置对象
+- global object
+- fundamental to the runtime semantics of the language 
+  - Object
+  - Function
+  - Boolean
+  - Symbol
+  - Error objects; 
+- numeric values 
+   - Math
+   - Number
+   - Date
+- the text processing objects 
+  - String
+  - RegExp
+- indexed collections of values 
+  - Array 
+  - Typed Arrays
+- keyed collections 
+  - Map  
+  - Set 
+- supporting structured data
+  - JSON 
+  - ArrayBuffer
+  - DataView 
+- supporting control abstractions
+  - generator functions 
+  - Promise objects
+- reflection objects 
+  - Proxy
+  - Reflect.
