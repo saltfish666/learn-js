@@ -1,12 +1,7 @@
 # 数组
 
-数组是值类型，不错
+- Array.prototype.slice ( start, end )
+The slice method takes two arguments, start and end, and returns an array containing the elements of the array from element start up to, but not including, element end (or through the end of the array if end is undefined). If start is negative, it is treated as length+start where length is the length of the array. If end is negative, it is treated as length+end where length is the length of the array.
 
-## 切片
-可以理解为一种引用类型, 对数组一部分内容的引用
-
-切片是对数组更高层次的抽象，用起来确实比C方便
-
-## 内置函数
-len() cap() 是如何实现的？编译器实现的？
-应该没有相关的汇编指令把
+- Array.prototype.splice ( start, deleteCount, ...items )
+When the splice method is called with two or more arguments start, deleteCount and zero or more items, the deleteCount elements of the array starting at integer index start are replaced by the arguments items. An Array object containing the deleted elements (if any) is returned.
